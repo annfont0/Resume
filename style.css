@@ -1,0 +1,199 @@
+h1, h2, h3, p {
+    font-family:"Lato", sans-serif;
+}
+
+#intro {
+    color: #f5f3ee;
+    font-size: 60px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+#first {
+    background-color: #567895;
+    min-height: 100%; 
+    padding: 200px;
+}
+
+#second {
+    min-height: 100%;
+    background-color: #f5f3ee;
+}
+
+#third {
+    min-height: 90%;
+    background-color: azure;
+}
+
+#fourth {
+    min-height: 70%;
+    background-color: #f5f3ee;
+}
+
+#f {
+    position: relative;
+    top: 30px;
+}
+
+#img {
+    position: relative;
+    top: 90px;
+    right: 0;
+    left: 130px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    position: relative;
+    top: -40px;
+    left: 370px;
+    padding: 60px;
+}
+  
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#567895;
+    width:100%;
+}
+  
+#nav {
+    float: left;
+}
+
+#nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #f9b2a9;
+}
+
+.button {
+    background-color: #567895;
+    border:2px solid black;
+    color: black;
+    color:#162b3f;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;    
+  }
+
+.button1 {
+    border-color: #f9b2a9;
+    color: white;
+    border-radius: 12px;
+}
+
+.button1:hover {
+    background-color: #f9b2a9;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+#name {
+    position: relative;
+    top: -190px;
+    left: 700px;
+}
+
+#definition {
+    position: relative;
+    top: -170px;
+    left: 700px;
+}
+
+#school {
+    position: relative;
+    top: 50px
+}
+
+#timeline {
+    position: relative;
+    top: 90px;
+}
+
+#skills {
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    background-color: #567895;
+    min-height: 40%;
+}
+
+#get {
+    position: relative;
+    top: 60px;
+    border: 2px solid black;
+    color: #f5f3ee;
+}
+
+#contact {
+    position: relative;
+    left: 310px;
+    top: 140px
+}
+
+#message {
+    position: relative;
+    left: 570px;
+    top: -30px
+}
+
